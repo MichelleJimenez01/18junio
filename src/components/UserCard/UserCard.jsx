@@ -14,7 +14,7 @@ export const UserCard = ({ user }) => {
 
   // Consola informativa
   //console.log(`La tarjeta de ${name} fue renderizada`);
-//se trae otros atributos como lastName, age, ein
+//se trae otros atributos como lastName, age, ein se pueden visualizar
   return (
     <div className='card'>
       <img className='image' src={image} alt={firstName} />

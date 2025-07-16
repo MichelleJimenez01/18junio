@@ -47,7 +47,7 @@ export const Section = () => {
       });
   }, [count]);
 
-  // funcion para actualizar el contador
+  // funcion para actualizar el contador. 
   const handleClick = () => {
     setCount(count + 1);
   };
