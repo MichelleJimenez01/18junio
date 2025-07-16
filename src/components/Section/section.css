@@ -1,10 +1,13 @@
-section{
-    padding: 10px;
-    background-color: #dc76b8;
-    display: flex;
-    gap: 20px;
-    justify-content: right;
+section {
+  flex: 1; /* Para que ocupe todo el espacio restante */
+  padding: 20px;
+  background-color: #dc76b8;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start; /* Distribución normal de tarjetas */
 }
+
 
 .card{
     font-family: inherit,Arial, Helvetica, sans-serif;
