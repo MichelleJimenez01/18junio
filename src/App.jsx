@@ -1,4 +1,4 @@
-import {Section} from './components/section/Section'
+import {Section} from './components/Section/Section'
 import {Sidebar} from './components/Sidebar/Sidebar'
 function App() {
   
